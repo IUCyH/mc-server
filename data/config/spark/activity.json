@@ -1,0 +1,228 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "IUCyH",
+      "uniqueId": "ff012cc5-3f16-4770-aa1f-a4d4dfa01b84"
+    },
+    "time": 1782921353970,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Rhj189s2Ur"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "Server"
+    },
+    "time": 1782842811206,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/vBGDHKgqjQ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "IUCyH",
+      "uniqueId": "ff012cc5-3f16-4770-aa1f-a4d4dfa01b84"
+    },
+    "time": 1782375631127,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/hsfx1pg92u"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "Server"
+    },
+    "time": 1781983972916,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/UV44dZSA98"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "Server"
+    },
+    "time": 1781809828142,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/6h0ObQQMnn"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "Server"
+    },
+    "time": 1781809801934,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/x5OyYGfr2x"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "IUCyH",
+      "uniqueId": "ff012cc5-3f16-4770-aa1f-a4d4dfa01b84"
+    },
+    "time": 1781809373987,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/420RSbfJYF"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "IUCyH",
+      "uniqueId": "ff012cc5-3f16-4770-aa1f-a4d4dfa01b84"
+    },
+    "time": 1780827222994,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Rvd1IJ0SEq"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "IUCyH",
+      "uniqueId": "ff012cc5-3f16-4770-aa1f-a4d4dfa01b84"
+    },
+    "time": 1780821929278,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/9cwiqrElCU"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "IUCyH",
+      "uniqueId": "ff012cc5-3f16-4770-aa1f-a4d4dfa01b84"
+    },
+    "time": 1780744342004,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/tS4zXtypqS"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "IUCyH",
+      "uniqueId": "ff012cc5-3f16-4770-aa1f-a4d4dfa01b84"
+    },
+    "time": 1780421255249,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/qkbre2BywQ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "IUCyH",
+      "uniqueId": "ff012cc5-3f16-4770-aa1f-a4d4dfa01b84"
+    },
+    "time": 1780225930016,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/iiVKZLsqhh"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "IUCyH",
+      "uniqueId": "ff012cc5-3f16-4770-aa1f-a4d4dfa01b84"
+    },
+    "time": 1780159936307,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/9Ma0jix1hf"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "IUCyH",
+      "uniqueId": "ff012cc5-3f16-4770-aa1f-a4d4dfa01b84"
+    },
+    "time": 1780147754264,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/blt6YWiM6A"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "Server"
+    },
+    "time": 1780146826153,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/LFkXRwxuLh"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "Server"
+    },
+    "time": 1780145979733,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/PQkvPyVAd8"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "Server"
+    },
+    "time": 1780144886381,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ykMixwrMO3"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "Server"
+    },
+    "time": 1780144588557,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/H7jkiTzjt6"
+    }
+  }
+]
