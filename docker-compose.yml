@@ -1,0 +1,15 @@
+services:
+  mc-fabric-server:
+    image: itzg/minecraft-server:latest
+    container_name: mc-fabric-server
+    restart: unless-stopped
+    ports:
+      - 25565:25565 # Java
+      - 19132:19132/udp # Bedrock
+    environment:
+      EULA: "true"
+      TYPE: "FABRIC"
+      VERSION: "26.1.2"
+      MEMORY: "4G"
+    volumes:
+      - ./data:/data
