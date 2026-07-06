@@ -1,4 +1,5 @@
-# rclone 설치 및 초기화
+# 서버 이전
+## rclone 설치 및 초기화
 [설치 방법](https://glorychoi.tistory.com/entry/Ubuntu%EC%97%90%EC%84%9C-Google-Drive-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
 - 위 블로그 내용대로 진행
 ### **원격 접속 등으로 인해 브라우저 인증이 불가할 때**
@@ -10,7 +11,7 @@ rclone authorize "drive"
 - 브라우저 화면에서 인증 완료 후 터미널에 출력된 토큰 복사 (Paste the following into your remote machine ---> 메세지 다음 부터 <---End paste 전까지)
 - 해당 토큰을 원격 머신의 토큰 입력 화면에 붙여넣기 및 엔터
 - 나머지는 블로그 내용과 동일하게 진행
-# 서버 이전 준비 (도커 사용 전 기준)
+## 서버 데이터 업로드 (기존 인스턴스에서 진행)
 ### 0. 루트 디렉토리 이동
 - ```cd ~```
 ### 1. 데이터 압축
@@ -40,7 +41,7 @@ rclone authorize "drive"
     ```
 ### 2. 구글 드라이브 업로드 (시간 다소 소요)
    - ```rclone copyto ~/mc_server_data.tar.gz gdrive:mc_server_data/mc_server_data.tar.gz```
-# 서버 이전 (초기 세팅)
+## 서버 초기화 (새 인스턴스에서 진행)
 ### 0. 루트 디렉토리 이동
 - ```cd ~```
 ### 1. 데이터 다운로드
@@ -54,19 +55,19 @@ rclone authorize "drive"
     ```
 ### 3. 서버 구동 및 초기화
   - [도커 설치](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
-  - ```
-    // 깃 설치
+  - 깃 설치
+    ```
     sudo apt install git git-lfs
     ```
-  - ```
-    // 서버 구동
+  - 서버 구동
+    ```
     cd ~/mc-server
     sudo docker compose up
     ```
   - 서버 구동 완료 메세지 확인 후 'd'를 눌러 detach
   - Fast Backups 모드 초기화
     ```
-    // 마인크래프트 프롬프트 접속
+    // 마인크래프트 서버 콘솔 접속
     sudo docker exec -it mc-fabric-server rcon-cli
     // 백업 세팅
     backup init
@@ -79,7 +80,7 @@ rclone authorize "drive"
     ```
     Ctrl + C 혹은 'exit'을 입력해 접속 종료
 
-# 마인크래프트 서버 콘솔
+# 마인크래프트 서버 콘솔 사용
 - 명령어 하나 보내기 (일회성)
   - ```sudo docker exec mc-fabric-server rcon-cli {명령어}```
 - 콘솔 접속
