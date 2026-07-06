@@ -101,6 +101,11 @@ globalExecutorParallelism = "default"
 	# fall back to the unoptimized version of density functions.
 	# 
 	useDensityFunctionCompiler = "default"
+	# (Default: true) Enables the built-in integrations with other worldgen mods in density function compiler.
+	# 
+	# Depends on vanillaWorldGenOptimizations.useDensityFunctionCompiler
+	# 
+	enableBuiltinDFCIntegrations = "default"
 	# (Default: true) Whether to enable End Biome Cache to accelerate The End worldgen 
 	# This is no longer included in lithium-fabric 
 	# (may cause incompatibility with other mods)
