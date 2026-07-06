@@ -11,5 +11,18 @@ services:
       TYPE: "FABRIC"
       VERSION: "26.1.2"
       MEMORY: "4G"
+      MODRINTH_PROJECTS: |
+        fabric-api
+        ferrite-core
+        lithium
+        jade:beta
+        krypton
+        c2me-fabric:alpha
+        spark
+        chunky
+        plasmo-voice
+        geyser:beta
+        floodgate
+        fastback
     volumes:
       - ./data:/data
