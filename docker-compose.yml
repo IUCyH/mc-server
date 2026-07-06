@@ -8,6 +8,7 @@ services:
     ports:
       - 25565:25565 # Java
       - 19132:19132/udp # Bedrock
+      - 25565:25565/udp # Plasmo Voice
     environment:
       EULA: "true"
       TYPE: "FABRIC"
