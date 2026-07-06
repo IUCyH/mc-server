@@ -67,7 +67,7 @@ rclone authorize "drive"
   - Fast Backups 모드 초기화
     ```
     // 마인크래프트 프롬프트 접속
-    sudo docker compose exec -it mc-fabric-server rcon-cli
+    sudo docker exec -it mc-fabric-server rcon-cli
     // 백업 세팅
     backup init
     backup set shutdown-action local // 서버 종료 시 자동 저장 설정 (로컬)
@@ -78,3 +78,12 @@ rclone authorize "drive"
     backup local // 현재 월드를 로컬에 백업
     ```
     Ctrl + C 혹은 'exit'을 입력해 접속 종료
+
+# 마인크래프트 서버 콘솔
+- 명령어 하나 보내기 (일회성)
+  - ```sudo docker exec mc-fabric-server rcon-cli {명령어}```
+- 콘솔 접속
+  - 간단한 경우
+    - ```sudo docker exec -it mc-fabric-server rcon-cli```
+  - rcon-cli에서 명령어에 대한 로그가 제대로 출력되지 않는 경우 (spark, backup 등 결과 출력에 시간이 필요한 명령어에서 자주 발생)
+    - ```docker compose attach mc-fabric-server // Ctrl + p, Ctrl + q를 순서대로 눌러 detach```
