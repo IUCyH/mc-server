@@ -1,6 +1,6 @@
 # 서버 이전
 ## rclone 설치 및 초기화
-[설치 방법](https://glorychoi.tistory.com/entry/Ubuntu%EC%97%90%EC%84%9C-Google-Drive-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
+[설치 및 설정 방법](https://glorychoi.tistory.com/entry/Ubuntu%EC%97%90%EC%84%9C-Google-Drive-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
 - 위 블로그 내용대로 진행
 ### **원격 접속 등으로 인해 브라우저 인증이 불가할 때**
 - Use auto config?에서 n 입력
