@@ -21,8 +21,14 @@ rclone authorize "drive"
     cache
     config
     eula.txt
-    fabric-server-loader-*.jar
+    fabric-server-*.jar
     fabricloader.log
+    .fabric
+    .fabric-manifest.json
+    .install-fabric.env
+    .modrinth-manifest.json
+    .rcon-cli.env
+    .rcon-cli.yaml
     logs
     mods
     world/.git
