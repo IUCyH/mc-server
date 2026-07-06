@@ -86,4 +86,4 @@ rclone authorize "drive"
   - 간단한 경우
     - ```sudo docker exec -it mc-fabric-server rcon-cli```
   - rcon-cli에서 명령어에 대한 로그가 제대로 출력되지 않는 경우 (spark, backup 등 결과 출력에 시간이 필요한 명령어에서 자주 발생)
-    - ```docker compose attach mc-fabric-server // Ctrl + p, Ctrl + q를 순서대로 눌러 detach```
+    - ```sudo docker compose attach mc-fabric-server // Ctrl + p, Ctrl + q를 순서대로 눌러 detach```
