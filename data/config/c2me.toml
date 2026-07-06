@@ -217,4 +217,3 @@ globalExecutorParallelism = "default"
 	# in a single world instance
 	# 
 	allowPOIUnloading = "default"
-

@@ -21,6 +21,7 @@ services:
         jade:beta
         krypton
         c2me-fabric:alpha
+        zfastnoise
         spark
         chunky
         plasmo-voice
