@@ -73,6 +73,7 @@ rclone authorize "drive"
     backup set shutdown-action local // 서버 종료 시 자동 저장 설정 (로컬)
     backup set autoback-action local // 자동 저장 설정 (로컬)
     backup set autoback-wait 10 // 약 10분 간격으로 백업 실시 (마인크래프트 자동 저장 타이밍에 따라 약간의 오차 발생 가능)
+    backup set broadcast-enabled false // 백업 시작 메세지 비활성화
     // 초기 백업
     backup local // 현재 월드를 로컬에 백업
     ```
