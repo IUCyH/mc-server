@@ -76,4 +76,4 @@ rclone authorize "drive"
     // 초기 백업
     backup local // 현재 월드를 로컬에 백업
     ```
-    Ctrl + C로 접속 종료
+    Ctrl + C 혹은 'exit'을 입력해 접속 종료
