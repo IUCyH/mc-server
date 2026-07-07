@@ -1,5 +1,7 @@
 #!/bin/bash
 set -e
 
-cd ~/mc-server
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+cd $SCRIPT_DIR
 sudo docker exec mc-fabric-server rcon-cli /backup prune
