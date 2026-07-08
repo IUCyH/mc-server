@@ -1,10 +1,10 @@
 services:
   mc-fabric-server:
     image: itzg/minecraft-server:latest
+    pull_policy: daily
     container_name: mc-fabric-server
-    restart: unless-stopped
-    stdin_open: true
     tty: true
+    stdin_open: true
     ports:
       - 25565:25565 # Java
       - 19132:19132/udp # Bedrock
