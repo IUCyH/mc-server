@@ -1,6 +1,45 @@
 [
   {
     "user": {
+      "type": "player",
+      "name": "IUCyH",
+      "uniqueId": "ff012cc5-3f16-4770-aa1f-a4d4dfa01b84"
+    },
+    "time": 1783467663925,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/03IlDOOAEq"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "IUCyH",
+      "uniqueId": "ff012cc5-3f16-4770-aa1f-a4d4dfa01b84"
+    },
+    "time": 1783466718443,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/eOufa2OTVL"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "IUCyH",
+      "uniqueId": "ff012cc5-3f16-4770-aa1f-a4d4dfa01b84"
+    },
+    "time": 1783466612208,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/dMBYsKM9qB"
+    }
+  },
+  {
+    "user": {
       "type": "other",
       "name": "Server"
     },
