@@ -5,21 +5,23 @@ services:
     container_name: mc-fabric-server
     tty: true
     stdin_open: true
+    stop_grace_period: 2m # 컨테이너 종료 시 안전한 월드 저장을 위해 프로세스 종료까지 최대 2분간 대기 (그 후에도 살아있다면 강제 종료)
     ports:
       - 25565:25565 # Java
       - 19132:19132/udp # Bedrock
       - 25565:25565/udp # Plasmo Voice
     environment:
+      STOP_SERVER_ANNOUNCE_DELAY: 20 # 종료 공지 후 20초 뒤 저장 및 종료
       EULA: "true"
       TYPE: "FABRIC"
-      VERSION: "26.1.2"
+      VERSION: "26.2"
       MEMORY: "4G"
       MODRINTH_PROJECTS: |
         fabric-api
         ferrite-core
         lithium
         jade:beta
-        krypton
+        krypton?
         c2me-fabric:alpha
         zfastnoise
         spark
