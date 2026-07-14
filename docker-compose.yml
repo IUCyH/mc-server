@@ -19,6 +19,7 @@ services:
       MODRINTH_PROJECTS: |
         fabric-api
         ferrite-core
+        async:alpha
         lithium
         jade:beta
         krypton?
