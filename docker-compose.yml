@@ -24,6 +24,7 @@ services:
         krypton?
         c2me-fabric:alpha
         zfastnoise
+        zconfig
         spark
         chunky
         plasmo-voice
